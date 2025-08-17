@@ -1,6 +1,6 @@
 import requests
 
-WEATHER_API_KEY = "62c32d4a03e84ba7a0c13935250508"
+
 
 def get_weather_forecast(input_text: str) -> str:
     # Expect input in format: "location,date"
