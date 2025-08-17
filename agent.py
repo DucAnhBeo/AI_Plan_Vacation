@@ -7,7 +7,7 @@ from tools.suggest_destinations_tool import suggest_destinations_based_on_weathe
 from tools.trip_planner_tool import plan_trip
 from tools.estimate_trip_cost_tool import estimate_trip_cost
 
-GEMINI_API_KEY = "AIzaSyD_yut0jbXWrtSmSm6r0xiq3sBpyaIdIlQ"
+
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=GEMINI_API_KEY)
 
