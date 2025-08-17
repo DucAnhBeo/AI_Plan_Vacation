@@ -7,7 +7,7 @@ from datetime import datetime
 # ------------------------
 # 1. Cấu hình
 # ------------------------
-GEMINI_API_KEY = "AIzaSyAGl6O9vRj8OcPjX4fXc5zeTPaFAn6IiW"
+
 CHROMA_DIR = "./chroma_db"  # Thư mục lưu trữ dữ liệu vector
 
 # ------------------------
