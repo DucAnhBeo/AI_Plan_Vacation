@@ -1,7 +1,7 @@
 from langchain.tools import tool
 import requests
 
-WEATHER_API_KEY = "62c32d4a03e84ba7a0c13935250508"
+
 
 @tool
 def suggest_destinations_based_on_weather(city: str) -> str:
