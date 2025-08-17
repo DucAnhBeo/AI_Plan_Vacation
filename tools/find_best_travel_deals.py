@@ -1,7 +1,6 @@
 from langchain.tools import tool
 import requests
 
-WEATHER_API_KEY = "62c32d4a03e84ba7a0c13935250508"
 
 @tool
 def get_best_travel_days(city: str) -> str:
