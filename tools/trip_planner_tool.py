@@ -1,7 +1,7 @@
 from langchain.tools import tool
 import requests
 
-GEMINI_API_KEY = "AIzaSyD_yut0jbXWrtSmSm6r0xiq3sBpyaIdIlQ"
+
 
 @tool
 def plan_trip(destination: str, days: int = 3) -> str:
